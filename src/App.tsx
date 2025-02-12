@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { PhoneIcon } from '@heroicons/react/solid';
+// import { PhoneIcon } from '@heroicons/react/20/solid';
 import { useInView } from "react-intersection-observer";
 import {
   Github,
@@ -740,14 +740,14 @@ function App() {
               >
                 <Mail className="w-6 h-6" />
               </motion.a>
-              <motion.a
+              {/* <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 href="tel:+917838052356" // Linking to the phone number
                 className="hover:text-blue-400 transition-colors"
               >
-                <PhoneIcon className="w-6 h-6" /> {/* Phone icon */}
-              </motion.a>
+                <PhoneIcon className="w-6 h-6" /> {/* Phone icon 
+              </motion.a> */}
             </div>
           </motion.div>
 
