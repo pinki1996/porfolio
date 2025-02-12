@@ -575,7 +575,7 @@ function ResumeDownload() {
       transition={{ delay: 0.2 }}
     >
       <motion.a
-        href="https://github.com/pinki1996/porfolio/blob/8bbce2d1169aef69fb450ba93d1bb5bf4a81e60d/src/Assets/resume.pdf"
+        href="https://raw.githubusercontent.com/pinki1996/porfolio/blob/8bbce2d1169aef69fb450ba93d1bb5bf4a81e60d/src/Assets/resume.pdf"
         download="resume.pdf"
         className="group relative inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full overflow-hidden"
         onHoverStart={() => setIsHovered(true)}
