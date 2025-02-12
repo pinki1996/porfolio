@@ -432,7 +432,7 @@ const projects = [
     description:
       "Full-stack e-commerce platform with real-time inventory management for catering service providers.",
     image:
-      "https://github.com/pinki1996/porfolio/blob/8bbce2d1169aef69fb450ba93d1bb5bf4a81e60d/src/Assets/gts.jpg?raw=true",
+      "https://raw.githubusercontent.com/pinki1996/porfolio/8bbce2d1169aef69fb450ba93d1bb5bf4a81e60d/src/Assets/gts.jpg",
     tech: ["React", "PHP", "MySQL"],
     link: "https://gtscatering.com/",
   },
@@ -697,8 +697,8 @@ function App() {
             className="w-32 h-32 rounded-full overflow-hidden mb-8"
           >
             <img
-              src="https://raw.githubusercontent.com/pinki1996/porfolio/tree/main/src/Assets/Pinki.jpg"
-              alt="Profile"
+               src="https://raw.githubusercontent.com/pinki1996/porfolio/main/src/Assets/Pinki.jpg"
+                alt="Profile"
               className="w-full h-full object-cover"
             />
           </motion.div>
