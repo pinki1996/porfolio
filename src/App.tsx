@@ -432,7 +432,7 @@ const projects = [
     description:
       "Full-stack e-commerce platform with real-time inventory management for catering service providers.",
     image:
-      "/src/Assets/gts.jpg?raw=true",
+      "https://github.com/pinki1996/porfolio/tree/main/src/Assets/gts.jpg?raw=true",
     tech: ["React", "PHP", "MySQL"],
     link: "https://gtscatering.com/",
   },
@@ -441,7 +441,7 @@ const projects = [
     description:
       "Full-stack e-commerce platform with real-time inventory management for home textiles, handcrafted décor accents, and corporate gifts.",
     image:
-      "/src/Assets/attica.jpg?raw=true",
+      "https://github.com/pinki1996/porfolio/tree/main/src/Assets/attica.jpg?raw=true",
     tech: ["React", "PHP", "MySQL"],
     link: "https://atticainterio.com/",
   },
@@ -450,7 +450,7 @@ const projects = [
     description:
       "Full-stack e-commerce platform with real-time inventory management for media products",
     image:
-      "/src/Assets/cronmedia.png?raw=true",
+      "https://github.com/pinki1996/porfolio/tree/main/src/Assets/cronmedia.png?raw=true",
     tech: ["React", "PHP", "MySQL"],
     link: "https://cron-media.com/",
   },
@@ -459,7 +459,7 @@ const projects = [
     description:
       "Website Template with React.js and Python backend for a digital media company",
     image:
-      "https://github.com/ChetanTiwari195/portfolio/blob/main/src/Assets/cypera.png?raw=true",
+      "https://github.com/pinki1996/porfolio/tree/main/src/Assets/cypera.png?raw=true",
     tech: ["React.js", "Python", "MySQL"],
     link: "https://cyperadigital.com/",
   },
@@ -575,7 +575,7 @@ function ResumeDownload() {
       transition={{ delay: 0.2 }}
     >
       <motion.a
-        href="/src/Assets/resume.pdf"
+        href="https://github.com/pinki1996/porfolio/tree/main/src/Assets/resume.pdf"
         download="resume.pdf"
         className="group relative inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full overflow-hidden"
         onHoverStart={() => setIsHovered(true)}
@@ -697,7 +697,7 @@ function App() {
             className="w-32 h-32 rounded-full overflow-hidden mb-8"
           >
             <img
-              src="/src/Assets/Pinki.jpg"
+              src="https://github.com/pinki1996/porfolio/tree/main/src/Assets/Pinki.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
