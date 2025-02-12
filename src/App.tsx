@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { PhoneIcon } from '@heroicons/react/solid';
 import { useInView } from "react-intersection-observer";
 import {
   Github,
@@ -575,7 +576,7 @@ function ResumeDownload() {
       transition={{ delay: 0.2 }}
     >
       <motion.a
-        href="https://raw.githubusercontent.com/pinki1996/porfolio/8bbce2d1169aef69fb450ba93d1bb5bf4a81e60d/src/Assets/resume.pdf" 
+        href="https://raw.githubusercontent.com/pinki1996/porfolio/8bbce2d1169aef69fb450ba93d1bb5bf4a81e60d/src/Assets/resume.pdf"
         download="resume.pdf"
         className="group relative inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full overflow-hidden"
         onHoverStart={() => setIsHovered(true)}
@@ -697,8 +698,8 @@ function App() {
             className="w-32 h-32 rounded-full overflow-hidden mb-8"
           >
             <img
-               src="https://raw.githubusercontent.com/pinki1996/porfolio/main/src/Assets/Pinki.jpg"
-                alt="Profile"
+              src="https://raw.githubusercontent.com/pinki1996/porfolio/main/src/Assets/Pinki.jpg"
+              alt="Profile"
               className="w-full h-full object-cover"
             />
           </motion.div>
@@ -738,6 +739,14 @@ function App() {
                 className="hover:text-blue-400 transition-colors"
               >
                 <Mail className="w-6 h-6" />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                href="tel:+917838052356" // Linking to the phone number
+                className="hover:text-blue-400 transition-colors"
+              >
+                <PhoneIcon className="w-6 h-6" /> {/* Phone icon */}
               </motion.a>
             </div>
           </motion.div>
