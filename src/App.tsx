@@ -725,7 +725,7 @@ function App() {
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://www.linkedin.com/in/pinki-saraswat-976614138/"
+                href="https://www.linkedin.com/in/pinki-saraswat-4582a8376/"
                 target="_blank"
                 className="hover:text-blue-400 transition-colors"
               >
